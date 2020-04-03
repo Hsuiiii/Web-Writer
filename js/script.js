@@ -1,8 +1,10 @@
-var subjects=['🍎','🍌','🍑','🍐','🍒','🍇','🍋','🍍','🍊','🍉','🥝'];
-var preps=['at','on','inside','beside','under','behind','in','outside','down','up','opposite'];
-var mods=['wet','dry','listening','watching','looking','cool','pretty','rough','sketchy','smooth','smelly'];
+
+
+var subjects=['Apple🍎','Banana🍌','Peach🍑','Pear🍐','Cherry🍒','🍇','🍋','🍍','🍊','🍉','🥝'];
+var preps=['from','on','inside','beside','under','behind','in','outside','down','up','opposite'];
+var mods=['soft','cutting','eating','sleeping','tasty','colorful','ugly','beautiful','lovely','smoothy','pretty'];
 var objects=['juice','blood','source','skin','leaf','seed','candy','knife','animals','trashcan','land'];
-var punctuations=['_(:з」∠)_','(*^▽^*)','(O_o)??','(╯▽╰)'，'(⊙o⊙)…','ε=(´ο｀*)))','(〃＞皿＜)','',':('];
+var punctuations=['..._(:з」∠)_','!(*^▽^*)','(O_o)??','.(╯▽╰)'，'(⊙o⊙)…','ε=(´ο｀*)))','!!!(〃＞皿＜)',':)',':('];
 
 
 
@@ -21,7 +23,7 @@ function wordGenerator(){
 
 window.setInterval(function() {
     wordGenerator();
-}, 4000);
+}, 2000);
 
 wordGenerator();
 
